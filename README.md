@@ -2,7 +2,7 @@
 <img src="https://github.com/thiagowaib/datavest-app/blob/main/assets/Logo-Menu.svg?raw=true" alt="banner"
 width="80%">
 
-> Bem vind@ ao repositório do DataVest, um aplicativo de listagem e mapeamento das datas dos principais vestibulares.
+> Bem vind@ ao repositório do DataVest, um aplicativo de listagem e mapeamento das datas dos principais vestibulares. Essa é a versão 2, para uso com a nova versão da API, aplicando o conceito de ignorância de permanência.
 
 <br>
 
