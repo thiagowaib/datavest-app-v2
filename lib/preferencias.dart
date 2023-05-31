@@ -42,7 +42,7 @@ class _PreferenciasPageState extends State<PreferenciasPage> {
 
   static Future<List<Preferencia>> getPreferencias() async {
     final response = await http.post(
-      Uri.parse('https://datavest-api.glitch.me/buscarPreferencias'),
+      Uri.parse('https://datavest-api-v2.glitch.me/buscarPreferencias'),
       body: json.encode({'email': globals.email}),
       headers: {'content-type': 'application/json'}
     );
@@ -56,7 +56,7 @@ class _PreferenciasPageState extends State<PreferenciasPage> {
   static alterarPreferencias(preferenciasUsuario) async {
     globals.preferencias = preferenciasUsuario;
     final response = await http.put(
-    Uri.parse('https://datavest-api.glitch.me/alterarPreferencias'),
+    Uri.parse('https://datavest-api-v2.glitch.me/alterarPreferencias'),
     body: json.encode({'email': globals.email, 'preferencias': globals.preferencias}),
     headers: {'content-type': 'application/json'}
     );

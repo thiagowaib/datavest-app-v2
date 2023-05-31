@@ -183,7 +183,7 @@ class _CadastroPageState extends State<CadastroPage> {
                           if(formKey.currentState!.validate()){
                             // Use a JSON encoded string to send
                             var result = await httpClient.post(
-                                Uri.parse('https://datavest-api.glitch.me/cadastrarUsuario'),
+                                Uri.parse('https://datavest-api-v2.glitch.me/cadastrarUsuario'),
                                 body: json.encode(formData.toJson()),
                                 headers: {'content-type': 'application/json'});
             

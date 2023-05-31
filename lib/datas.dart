@@ -36,7 +36,7 @@ class _DatasPageState extends State<DatasPage> {
   
   static Future<List<Vestibular>> getVestibulares() async {
     final response = await http.post(
-      Uri.parse('https://datavest-api.glitch.me/listarDatas'),
+      Uri.parse('https://datavest-api-v2.glitch.me/listarDatas'),
       body: json.encode({'vestibulares': globals.preferencias}),
       headers: {'content-type': 'application/json'}
     );

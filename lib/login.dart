@@ -210,7 +210,7 @@ class _LoginPageState extends State<LoginPage> {
                           if(formKey.currentState!.validate()){
                             // Use a JSON encoded string to send
                             var result = await httpClient.post(
-                                Uri.parse('https://datavest-api.glitch.me/login'),
+                                Uri.parse('https://datavest-api-v2.glitch.me/login'),
                                 body: json.encode(formData.toJson()),
                                 headers: {'content-type': 'application/json'});
                             
@@ -230,7 +230,7 @@ class _LoginPageState extends State<LoginPage> {
                               globals.jwt = response['tokenAcesso'];
 
                               result = await httpClient.post(
-                                Uri.parse('https://datavest-api.glitch.me/buscarPreferencias'),
+                                Uri.parse('https://datavest-api-v2.glitch.me/buscarPreferencias'),
                                 body: json.encode({'email': formData.email.toString()}),
                                 headers: {'content-type': 'application/json'});
                             
