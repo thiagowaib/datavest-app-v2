@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/datavest.iml" filepath="$PROJECT_DIR$/datavest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/android/datavest_android.iml" filepath="$PROJECT_DIR$/android/datavest_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/datavestv2.iml" filepath="$PROJECT_DIR$/datavestv2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/datavestv2_android.iml" filepath="$PROJECT_DIR$/android/datavestv2_android.iml" />
     </modules>
   </component>
 </project>

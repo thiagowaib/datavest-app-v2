@@ -1,10 +1,10 @@
 import 'dart:convert';
 
-import 'package:datavest/cadastro.dart';
-import 'package:datavest/datas.dart';
-import 'package:datavest/conv_datas.dart';
-import 'package:datavest/preferencias.dart';
-import 'package:datavest/conv_preferencias.dart';
+import 'package:datavestv2/cadastro.dart';
+import 'package:datavestv2/datas.dart';
+import 'package:datavestv2/conv_datas.dart';
+import 'package:datavestv2/preferencias.dart';
+import 'package:datavestv2/conv_preferencias.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:json_annotation/json_annotation.dart';

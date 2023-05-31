@@ -1,4 +1,4 @@
-# App *DataVest*
+# App *DataVest V2*
 <img src="https://github.com/thiagowaib/datavest-app/blob/main/assets/Logo-Menu.svg?raw=true" alt="banner"
 width="80%">
 
@@ -12,7 +12,7 @@ Por enquanto o download pode ser feito diretamente através do link abaixo, cont
 * Você tenha um celular Android
 * Siga os passos de instalação abaixo
 
-**[Link para o Download](https://github.com/thiagowaib/datavest-app/releases "Link para o Download")**
+**[Link para o Download](https://github.com/thiagowaib/datavest-app-v2/releases "Link para o Download")**
 
 <br>
 

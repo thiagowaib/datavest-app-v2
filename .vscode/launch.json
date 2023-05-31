@@ -5,20 +5,20 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "datavest-app",
+            "name": "datavestv2-app",
             "program": "lib/login.dart",
             "request": "launch",
             "type": "dart"
         },
         {
-            "name": "datavest-app (profile mode)",
+            "name": "datavestv2-app (profile mode)",
             "program": "lib/login.dart",
             "request": "launch",
             "type": "dart",
             "flutterMode": "profile"
         },
         {
-            "name": "datavest-app (release mode)",
+            "name": "datavestv2-app (release mode)",
             "program": "lib/login.dart",
             "request": "launch",
             "type": "dart",
